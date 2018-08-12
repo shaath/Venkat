@@ -1,0 +1,29 @@
+package day7;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.server.browserlaunchers.Sleeper;
+
+public class MultipleWindowhandlingEg {
+
+	public static void main(String[] args) 
+	{
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://gmail.com");
+		driver.manage().window().maximize();
+		
+		String gmail=driver.getWindowHandle();
+		
+		
+//		driver.findElement(By.linkText("Privacy")).click();
+		
+//		Sleeper.sleepTightInSeconds(5);
+		
+		
+		
+//		driver.findElement(By.linkText("Terms of Service")).click();
+
+	}
+
+}

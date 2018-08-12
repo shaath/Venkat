@@ -1,0 +1,11 @@
+package day1;
+
+
+public class FFLaunch {
+
+	public static void main(String[] args)
+	{
+
+	}
+
+}
